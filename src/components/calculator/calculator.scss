@@ -1,0 +1,72 @@
+.calculatorWrap {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+
+  .header {
+    background: #c10708;
+    color: #fff;
+    padding: 15px 0;
+    margin-bottom: 50px;
+
+    h2 {
+      margin: 0;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+  }
+
+  .calculatorBody {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .12);
+    padding: 10px 50px 50px;
+
+    p {
+      color: #b2b2b2;
+    }
+    form {
+      border-bottom: 1px solid #c10708;
+      margin-bottom: 40px;
+    }
+
+    .inputContent {
+      input {
+        margin-bottom: 10px;
+        padding: 10px 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        width: 100%;
+        max-width: 258px;
+        box-shadow: none;
+        outline: none;
+        &:focus {
+          border: 1px solid #c10708
+        }
+      }
+
+      .btnSum {
+        width: 100%;
+        max-width: 270px;
+        padding: 10px;
+        background: #c10708;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      hr {
+        border: 1px solid #c10708
+      }
+
+      .result {
+        border: 1px solid #c10708
+      }
+    }
+  }
+}
